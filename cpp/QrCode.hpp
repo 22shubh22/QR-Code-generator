@@ -189,7 +189,7 @@ class QrCode final {
 	 * Returns a string of SVG code for an image depicting this QR Code, with the given number
 	 * of border modules. The string always uses Unix newlines (\n), regardless of the platform.
 	 */
-	public: std::string toSvgString(std::string color, std::string bgcolor) const;
+	public: std::string toSvgString(int border, std::string color, std::string bgcolor) const;
 	
 	
 	
